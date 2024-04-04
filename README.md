@@ -13,6 +13,8 @@ source .env
 forge test -vvvv --rpc-url $ETH_RPC_URL --etherscan-api-key $ETHERSCAN_API_KEY
 ```
 
+Where `ETH_RPC_URL` and `ETHERSCAN_API_KEY` are network: `mainnet`.
+
 ## Output
 
 ```
