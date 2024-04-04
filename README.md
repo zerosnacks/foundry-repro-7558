@@ -64,4 +64,4 @@ Suite result: ok. 3 passed; 0 failed; 0 skipped; finished in 2.19s (3.97s CPU ti
 Ran 1 test suite in 4.49s (2.19s CPU time): 3 tests passed, 0 failed, 0 skipped (3 total tests)
 ```
 
-Notice it resolves `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` to `EACAggregatorProxy` for the first test A but not for the second test B or third test C, same with `0xE62B71cf983019BFf55bC83B48601ce8419650CC` to `AccessControlledOffchainAggregator`.
+Notice it resolves `0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419` to `EACAggregatorProxy` and `0xE62B71cf983019BFf55bC83B48601ce8419650CC` to `AccessControlledOffchainAggregator` for the first test A but not for the second test B. The internals of the function are the exact same.
