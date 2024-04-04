@@ -10,7 +10,7 @@ Fill out `.env` and run:
 
 ```
 source .env
-forge test -vvv --rpc-url $ETH_RPC_URL --etherscan-api-key $ETHERSCAN_API_KEY
+forge test -vvvv --rpc-url $ETH_RPC_URL --etherscan-api-key $ETHERSCAN_API_KEY
 ```
 
 ## Output
