@@ -49,6 +49,11 @@ contract ForkingTest is Test {
         console2.log("Price B: %d", price);
     }
 
+    function testForkGetPriceC() public {
+        int256 price = _getPrice();
+        console2.log("Price C: %d", price);
+    }
+
     function _getPrice() internal returns (int256 price) {
         priceFeed = AggregatorV3Interface(
             0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419
